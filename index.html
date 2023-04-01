@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script defer src="variables.js"></script>
     <script defer src="json.js"></script>
+    <script defer src="localStorage.js"></script>
     <script  src="https://kit.fontawesome.com/45d09f8c96.js" crossorigin="anonymous"></script>
     <title>Formulario con JSon</title>
 </head>
@@ -16,7 +17,7 @@
         <h1 class="tittle">FORMULARIO</h1>
             <div id="formulario" class="center">
                 <div class="">
-                    <button id = "buscar" class="btn-floating waves-effect waves-light orange" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id = "buscar" class="btn-floating waves-effect waves-light green" title="Buscar"><i class="fa-solid fa-magnifying-glass"></i></button>
                     <button id = "eliminar" class="btn-floating waves-effect waves-light red darken-2" title="Eliminar"><i class="fa-regular fa-trash-can"></i></button>    
                 </div>
                 <div>
@@ -42,7 +43,7 @@
             <br><br>
             <div id="text">
                
-                <table>
+                <table class="striped">
                     <thead class="blue white-text">
                         <tr>
                             <th>ID</th>

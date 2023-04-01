@@ -36,6 +36,7 @@ const cargoTablaContacto = (arr) =>{
         `
     })
     tbody.innerHTML = tablaContacto;
+    guardoContactoStorage()
 }
 
 
